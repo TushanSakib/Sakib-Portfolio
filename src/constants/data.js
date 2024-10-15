@@ -3,17 +3,16 @@ import project2 from "../assets/doctor-appointment-1.jpg";
 import project3 from "../assets/travel-1.png";
 import project4 from "../assets/digitalecom-3.jpg";
 
-export const HERO_CONTENT = `I am a passionate Front-End developer 
+export const HERO_CONTENT = `I am a passionate Front-End developer and Quality Tester 
 with a knack for crafting robust and scalable
  web applications.
  I have honed my skills in front-end technologies like
-  React and Next.js, as well as back-end technologies 
-  like Node.js, Django,MySQL, and MongoDB. 
+  React and Next.js, as well as Software Quality Assurance skill on manual and automation both.
   My goal is to leverage my expertise to create innovative 
   solutions that drive business growth and deliver exceptional
    user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile Front-End developer with a passion for creating efficient and user-friendly web applications.  I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile Front-End developer and Quality Tester with a passion for creating efficient and user-friendly web applications and it's quality testing.  I have worked with a variety of technologies, including React, Next.js, Manual and Automation testing. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career and right now I am also passionate about Qality Testing where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EDUCATION = [
   {
@@ -21,7 +20,7 @@ export const EDUCATION = [
     institute: "American International University Bangladesh",
     department:"Bsc.CSE",
     description: `I am currently pursuing a Bachelor's degree in Computer Science and Engineering. My coursework has provided me with a strong foundation in both theoretical and practical aspects of computing, including programming, algorithms, data structures, and software engineering. I am passionate about problem-solving and continuously strive to enhance my skills through hands-on projects and collaborative learning. My experience in CSE has equipped me with the knowledge and tools necessary to tackle real-world challenges in the tech industry.`,
-    technologies: ["Javascript", "React.js", "Next.js","python","C++","C#","Java"],
+    technologies: ["Javascript", "React.js", "Next.js","python","C++","Java","SQA],
   }
 ];
 

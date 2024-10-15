@@ -20,7 +20,7 @@ export const EDUCATION = [
     institute: "American International University Bangladesh",
     department:"Bsc.CSE",
     description: `I am currently pursuing a Bachelor's degree in Computer Science and Engineering. My coursework has provided me with a strong foundation in both theoretical and practical aspects of computing, including programming, algorithms, data structures, and software engineering. I am passionate about problem-solving and continuously strive to enhance my skills through hands-on projects and collaborative learning. My experience in CSE has equipped me with the knowledge and tools necessary to tackle real-world challenges in the tech industry.`,
-    technologies: ["Javascript", "React.js", "Next.js","python","C++","Java","SQA],
+    technologies: ["Javascript", "React.js", "Next.js","python","C++","Java","SQA"],
   }
 ];
 

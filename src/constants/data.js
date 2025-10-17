@@ -1,71 +1,93 @@
-import project1 from "../assets/apple-web pic-1.jpg";
-import project2 from "../assets/doctor-appointment-1.jpg";
-import project3 from "../assets/travel-1.png";
-import project4 from "../assets/digitalecom-3.jpg";
 
-export const HERO_CONTENT = `I am a passionate Front-End developer 
-with a knack for crafting robust and scalable
- web applications.
- I have honed my skills in front-end technologies like
-  React and Next.js, as well as back-end technologies 
-  like Node.js, Django,MySQL, and MongoDB. 
-  My goal is to leverage my expertise to create innovative 
-  solutions that drive business growth and deliver exceptional
-   user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile Front-End developer with a passion for creating efficient and user-friendly web applications.  I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
+export const HERO_CONTENT = `I am a passionate Front-End developer and Quality Tester 
+with a knack for crafting robust and scalable web applications.
+I have honed my skills in front-end technologies like
+React and Next.js, as well as Software Quality Assurance skill on manual and automation both.
+My goal is to leverage my expertise to create innovative 
+solutions that drive business growth and deliver exceptional user experiences.`;
+
+export const ABOUT_TEXT = [
+  "Skilled Front-End Developer and Quality Tester with expertise in building efficient, user-centric web applications and ensuring their reliability through rigorous testing.",
+  "Proficient in modern technologies, including React, Next.js, and both manual and automated testing frameworks, delivering high-quality, scalable solutions.",
+  "Evolved from a curiosity-driven learner to a professional dedicated to mastering complex challenges in web development and quality assurance.",
+  "Thrives in collaborative, agile environments, consistently driving innovation and excellence through teamwork and problem-solving.",
+  "Passionate about staying at the forefront of technology, actively exploring new tools and contributing to open-source projects."
+];
 export const EDUCATION = [
   {
-    year: "2019 - Present",
+    year: "2019 - 2024",
     institute: "American International University Bangladesh",
-    department:"Bsc.CSE",
-    description: `I am currently pursuing a Bachelor's degree in Computer Science and Engineering. My coursework has provided me with a strong foundation in both theoretical and practical aspects of computing, including programming, algorithms, data structures, and software engineering. I am passionate about problem-solving and continuously strive to enhance my skills through hands-on projects and collaborative learning. My experience in CSE has equipped me with the knowledge and tools necessary to tackle real-world challenges in the tech industry.`,
-    technologies: ["Javascript", "React.js", "Next.js","python","C++","C#","Java"],
+    department: "Bsc CSE"
+  },
+  {
+    year: "2017 - 2019",
+    institute: "Shanrpar Rawshan Ara Degree College",
+    department: "Science"
+  }
+];
+
+export const EXPERIENCE = [
+  {
+    year: "02/2025 - Present",
+    role: "SQA Engineer",
+    company: "BRAC IT Service",
+    location: "Gulshan-1",
+    description: [
+      "Working dedicatedly on the BRAC Payroll Management project, ensuring the system's accuracy, compliance, and performance",
+      "Conducting manual and API testing to validate payroll processing, leave management, and tax calculations",
+      "Writing comprehensive test cases and executing test cycles to identify defects and improve system stability",
+      "Collaborating with developers and stakeholders to enhance software quality and resolve issues"
+    ],
+    technologies: ["Manual Testing", "API Testing", "Jira", "Test Case Design"]
+  },
+  {
+    year: "11/2024 - 02/2025",
+    role: "QA Intern",
+    company: "BRAC IT Service",
+    location: "Gulshan-1",
+    description: [
+      "Worked on HRMS ERP, BRAC International, and BRAC Payroll projects, gaining hands-on experience in test case writing, manual testing, and API testing",
+      "Assisted in identifying and reporting defects, verifying system functionality, and ensuring software reliability",
+      "Collaborated with the QA team to learn industry best practices and enhance testing methodologies"
+    ],
+    technologies: ["Manual Testing", "API Testing", "Jira", "Test Case Writing"]
   }
 ];
 
 export const PROJECTS = [
   {
-    id:1,
-    title: "Apple Wed Clone",
-    image: project1,
-    source:"https://github.com/TushanSakib/Apple-clone",
-    description:
-      "A clone web for only practice, Frontend design having some awesome animations. ",
-    technologies: ["HTML", "CSS", "React", "NEXT.js", "GSAP","Three.js"],
+    id: 1,
+    title: "Brac Payroll Management System",
+    description: [
+      "Led functional, regression, and UI testing across Leave, Attendance, and Payroll modules to ensure robust system performance",
+      "Designed and executed over 1,200 test cases with strong edge-case coverage for key modules",
+      "Achieved 70% automation coverage using Playwright (Python) for Leave and Attendance modules, significantly enhancing testing efficiency",
+      "Conducted load testing for 2,500 concurrent users with K6 (JavaScript) and generated detailed performance reports",
+      "Improved UI performance metrics by conducting Lighthouse audits, enhancing accessibility, SEO, and page speed",
+      "Actively contributed to QA planning, sprint reviews, and retrospectives to strengthen test strategy and coverage",
+      "Managed and worked on DPS, PF, Loan, Salary, Tax, and Payroll modules, ensuring comprehensive QA oversight"
+    ],
+    technologies: ["Playwright", "Python", "K6", "JavaScript", "Lighthouse", "Jira"]
   },
   {
-    id:2,
-    title: "Doctor Appointment Webapp",
-    image: project2,
-    source:"https://github.com/TushanSakib/Doctor-Appointment-Nextjs",
-    description:
-      "A website where,Users can browse through different categories of doctors,Detailed profiles of doctors,after submitting the appointment form, users receive a PDF that includes their appointment list and token for easy reference.",
-    technologies: ["HTML", "NEXT.js", "Strapi","Tailwind.css"],
-  },
-  {
-    id:3,
-    title: "Travel Website",
-    image: project3,
-    liveLink:"https://travel-pearl-pi.vercel.app/",
-    description:
-      "Travel Website show-casing the awesome designs. And its also for practice",
-    technologies: ["HTML", "Tailwind.css", "React","NEXT.js"],
-  },
-  {
-    id:4,
-    title: "Digital E-com Website",
-    image: project4,
-    source:"https://github.com/TushanSakib/digital-Ecom-Frontend/tree/main/app",
-    description:
-      "A fully functional digital e-commerce site,having some features like viewing the products,view the detail of a product,login,registration,and view the cart page,and also payment gate-way system",
-    technologies: ["HTML", "Tailwind.css", "React","NEXT.js","Strapi"],
-  },
+    id: 2,
+    title: "Brac International",
+    description: [
+      "Designed and executed 500 manual test cases with strong edge-case coverage",
+      "Performed functional, regression, and sanity testing to ensure stability across Attendance, WFH, and Visit modules",
+      "Collaborated closely with developers and business analysts to clarify requirements and resolve defects",
+      "Reported, tracked, and validated bugs through the full QA lifecycle",
+      "Contributed as part of a cross-functional team to maintain product quality"
+    ],
+    technologies: ["Manual Testing", "Jira", "Test Case Design"]
+  }
 ];
 
 export const CONTACT = {
   address: "92-Shanarpar,Demra,Dhaka-1230",
-  phoneNo: "+880-1921380201 ",
-  email: "azizsakib24@gmail.com",
+  phoneNo: "+880-1841047399",
+  email: "azizsakib24@gmail.com"
 };
+

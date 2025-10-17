@@ -1,13 +1,12 @@
 import About from "./components/About";
-import Conatct from "./components/Conatct";
+import Contact from "./components/Contact";
 import Education from "./components/Education";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
-import Teachnologies from "./components/Teachnologies";
+import Technologies from "./components/Teachnologies";
 import BlogSection from "./components/BlogSection";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import ProjectDetails from "./components/ProjectDetails";
+import Experience from "./components/Experience";
 
 export default function App() {
   return (
@@ -26,13 +25,14 @@ export default function App() {
       <div className="container mx-auto px-8">
       <Navbar />
             <Hero />
+            <BlogSection />
             <About />
-            <Teachnologies />
+            <Experience/>
+            <Technologies/>
             <Education />
     
           <Projects/>
-            <BlogSection />
-            <Conatct />
+            <Contact />
       </div>
     </div>
   );

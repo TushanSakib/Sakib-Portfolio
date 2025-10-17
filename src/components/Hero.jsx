@@ -17,6 +17,7 @@ const container = (delay) => ({
 
 const Hero = () => {
   return (
+<<<<<<< HEAD
     <div className="border-b border-neutral-900 pb-24 relative overflow-hidden">
       {/* Cosmic background elements */}
       <div className="absolute top-20 left-10 w-72 h-72 bg-cyan-500/5 rounded-full blur-3xl animate-pulse"></div>
@@ -24,6 +25,60 @@ const Hero = () => {
       <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-cyan-400/40 rounded-full blur-sm animate-pulse"></div>
       <div className="absolute top-2/3 right-1/4 w-2 h-2 bg-blue-400/30 rounded-full blur-sm animate-pulse delay-300"></div>
       <div className="absolute bottom-1/4 left-1/3 w-1 h-1 bg-teal-400/40 rounded-full blur-sm animate-pulse delay-500"></div>
+=======
+    <div className='border-b border-neutral-900 pb-4
+     lg:mb-35'>
+        <div className='flex flex-wrap'>
+            <div className='w-full lg:w-1/2'>
+                <div className='flex flex-col items-center lg:items-start'>
+                    <motion.h1 
+                        variants={container(0)}
+                        initial="hidden"
+                        animate="visible"
+                      className='pb-16 text-2xl font-thin tracking-tight
+                     lg:mt-16 lg:text-5xl'>Mohammad Abdul Aziz Sakib</motion.h1>
+                     <motion.span
+                     variants={container(0.5)}
+                     initial="hidden"
+                     animate="visible"
+                      className='bg-gradient-to-r from-pink-500
+                     via-slate-500 to-purple-500 bg-clip-text
+                      text-3xl tracking-tight text-transparent'>
+                        Front-End Developer and QA Engineer
+                        </motion.span>
+                        <motion.p
+                        variants={container(1)}
+                        initial="hidden"
+                        animate="visible" 
+                        className='my-2 max-w-xl py-6 font-light
+                         tracking-tighter'>
+                            {HERO_CONTENT}
+                        </motion.p>
+                </div>
+            </div>
+            <motion.div initial={{x:100,opacity:0}}
+                    animate={{x:0,opacity:1}}
+                    transition={{duration:1,delay:1.2}} className='w-full lg:w-1/2 p-8'>
+                <div className='flex justify-center'>
+                <CardContainer className="inter-var">
+      <CardBody className=" relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto h-auto rounded-xl border  ">
+        <CardItem
+            translateZ="100"
+            >
+                    <img
+                     src={profileImage} alt="profile image"
+                    width={350} height={350} className='object-cover rounded-lg group-hover/card:shadow-xl' />
+                              
+    </CardItem>
+                </CardBody>
+              </CardContainer>
+                </div>
+            </motion.div>
+        </div>
+     </div>
+  )
+}
+>>>>>>> be723b25df86503837098a6fe72c6a1cf27d10e0
 
       <div className="relative max-w-7xl mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center">

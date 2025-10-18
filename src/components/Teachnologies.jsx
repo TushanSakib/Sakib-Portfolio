@@ -1,6 +1,7 @@
 import React from 'react';
 import { RiReactjsLine } from 'react-icons/ri';
 import { TbBrandNextjs } from 'react-icons/tb';
+import { SiPlaywright } from 'react-icons/si';
 import { SiSelenium } from 'react-icons/si';
 import { FaHtml5 } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io5';
@@ -31,6 +32,16 @@ const cardVariants = {
 
 const technologies = [
   {
+    name: 'Python',
+    icon: <FaPython className="text-5xl text-blue-400" aria-label="Python icon" />,
+    description: 'Utilized for scripting and automation, including testing with Playwright.',
+  },
+    {
+    name: 'Playwright',
+    icon: <SiPlaywright className="text-5xl text-lime-300" aria-label="Playwright icon" />,
+    description: 'Automated end-to-end testing for web applications, ensuring cross-browser compatibility.',
+  },
+  {
     name: 'React',
     icon: <RiReactjsLine className="text-5xl text-cyan-400" aria-label="React icon" />,
     description: 'Built dynamic, responsive UI components for web applications, enhancing user experiences.',
@@ -55,16 +66,7 @@ const technologies = [
     icon: <IoLogoJavascript className="text-5xl text-yellow-500" aria-label="JavaScript icon" />,
     description: 'Implemented interactive features and logic for dynamic web applications.',
   },
-  {
-    name: 'Python',
-    icon: <FaPython className="text-5xl text-blue-400" aria-label="Python icon" />,
-    description: 'Utilized for scripting and automation, including testing with Playwright.',
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: <RiTailwindCssFill className="text-5xl text-cyan-400" aria-label="Tailwind CSS icon" />,
-    description: 'Designed responsive, utility-first styles for modern, consistent UI.',
-  },
+  
   {
     name: 'MySQL',
     icon: <DiMysql className="text-5xl text-cyan-400" aria-label="MySQL icon" />,

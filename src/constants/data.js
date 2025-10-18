@@ -40,7 +40,7 @@ export const EXPERIENCE = [
   "Developing robust test cases and driving defect resolution to enhance product stability",
   "Collaborating closely with developers to deliver high-quality, error-free releases"
 ],
-    technologies: ["Manual Testing", "API Testing", "Jira", "Test Case Design"]
+    technologies: ["Automation","Manual Testing", "API Testing", "Jira", "Test Case Design"]
   },
   {
     year: "11/2024 - 02/2025",

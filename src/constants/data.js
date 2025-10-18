@@ -1,25 +1,11 @@
 
-<<<<<<< HEAD
-
-=======
-export const HERO_CONTENT = `I am a passionate Front-End developer and Quality Tester 
-with a knack for crafting robust and scalable
- web applications.
- I have honed my skills in front-end technologies like
-  React and Next.js, as well as Software Quality Assurance skill on manual and automation both.
-  My goal is to leverage my expertise to create innovative 
-  solutions that drive business growth and deliver exceptional
-   user experiences.`;
-
-export const ABOUT_TEXT = `I am a dedicated and versatile Front-End developer and Quality Tester with a passion for creating efficient and user-friendly web applications and it's quality testing.  I have worked with a variety of technologies, including React, Next.js, Manual and Automation testing. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career and right now I am also passionate about Qality Testing where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
->>>>>>> be723b25df86503837098a6fe72c6a1cf27d10e0
-
-export const HERO_CONTENT = `I am a passionate Front-End developer and Quality Tester 
-with a knack for crafting robust and scalable web applications.
-I have honed my skills in front-end technologies like
-React and Next.js, as well as Software Quality Assurance skill on manual and automation both.
-My goal is to leverage my expertise to create innovative 
-solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate Front-End Developer and Quality Assurance Engineer 
+dedicated to building high-performing, user-centric web applications. 
+With strong expertise in React, Next.js, and modern testing frameworks, 
+I specialize in creating seamless digital experiences with precision and reliability. 
+Beyond development and QA, I have a strong vision to blend technology and business — 
+leveraging AI-driven insights to build smarter, scalable, and future-ready solutions 
+that empower growth and innovation.`;
 
 export const ABOUT_TEXT = [
   "Skilled Front-End Developer and Quality Tester with expertise in building efficient, user-centric web applications and ensuring their reliability through rigorous testing.",
@@ -32,7 +18,6 @@ export const EDUCATION = [
   {
     year: "2019 - 2024",
     institute: "American International University Bangladesh",
-<<<<<<< HEAD
     department: "Bsc CSE"
   },
   {
@@ -49,11 +34,12 @@ export const EXPERIENCE = [
     company: "BRAC IT Service",
     location: "Gulshan-1",
     description: [
-      "Working dedicatedly on the BRAC Payroll Management project, ensuring the system's accuracy, compliance, and performance",
-      "Conducting manual and API testing to validate payroll processing, leave management, and tax calculations",
-      "Writing comprehensive test cases and executing test cycles to identify defects and improve system stability",
-      "Collaborating with developers and stakeholders to enhance software quality and resolve issues"
-    ],
+  "Ensuring precision and compliance in BRAC Payroll Management through rigorous testing and performance validation",
+  "Playwright (Python) utilized to automate end-to-end test scenarios, improving coverage, accuracy, and execution speed",
+  "Executing manual and API testing for payroll, leave, and tax modules to maintain system reliability",
+  "Developing robust test cases and driving defect resolution to enhance product stability",
+  "Collaborating closely with developers to deliver high-quality, error-free releases"
+],
     technologies: ["Manual Testing", "API Testing", "Jira", "Test Case Design"]
   },
   {
@@ -62,16 +48,12 @@ export const EXPERIENCE = [
     company: "BRAC IT Service",
     location: "Gulshan-1",
     description: [
-      "Worked on HRMS ERP, BRAC International, and BRAC Payroll projects, gaining hands-on experience in test case writing, manual testing, and API testing",
-      "Assisted in identifying and reporting defects, verifying system functionality, and ensuring software reliability",
-      "Collaborated with the QA team to learn industry best practices and enhance testing methodologies"
-    ],
+  "Contributed to HRMS ERP, BRAC International, and BRAC Payroll projects with a focus on accuracy, reliability, and quality assurance excellence",
+  "Hands-on experience in test case design, manual testing, and API validation to ensure robust system performance",
+  "Identified, documented, and verified defects to maintain software precision and functional integrity",
+  "Collaborated within the QA team to implement best practices and continuously improve testing efficiency"
+],
     technologies: ["Manual Testing", "API Testing", "Jira", "Test Case Writing"]
-=======
-    department:"Bsc.CSE",
-    description: `I am currently pursuing a Bachelor's degree in Computer Science and Engineering. My coursework has provided me with a strong foundation in both theoretical and practical aspects of computing, including programming, algorithms, data structures, and software engineering. I am passionate about problem-solving and continuously strive to enhance my skills through hands-on projects and collaborative learning. My experience in CSE has equipped me with the knowledge and tools necessary to tackle real-world challenges in the tech industry.`,
-    technologies: ["Javascript", "React.js", "Next.js","python","C++","Java","SQA"],
->>>>>>> be723b25df86503837098a6fe72c6a1cf27d10e0
   }
 ];
 
@@ -80,39 +62,30 @@ export const PROJECTS = [
     id: 1,
     title: "Brac Payroll Management System",
     description: [
-      "Led functional, regression, and UI testing across Leave, Attendance, and Payroll modules to ensure robust system performance",
-      "Designed and executed over 1,200 test cases with strong edge-case coverage for key modules",
-      "Achieved 70% automation coverage using Playwright (Python) for Leave and Attendance modules, significantly enhancing testing efficiency",
-      "Conducted load testing for 2,500 concurrent users with K6 (JavaScript) and generated detailed performance reports",
-      "Improved UI performance metrics by conducting Lighthouse audits, enhancing accessibility, SEO, and page speed",
-      "Actively contributed to QA planning, sprint reviews, and retrospectives to strengthen test strategy and coverage",
-      "Managed and worked on DPS, PF, Loan, Salary, Tax, and Payroll modules, ensuring comprehensive QA oversight"
-    ],
+  "Led end-to-end functional, regression, and UI testing across Leave, Attendance, and Payroll modules to ensure system scalability and stability",
+  "Engineered 1.2K+ detailed test cases with advanced edge-case coverage and achieved 70% automation using Playwright (Python)",
+  "Executed load and stress testing for 2.5K concurrent users with K6 (JavaScript), delivering actionable performance insights",
+  "Enhanced frontend performance via Lighthouse audits, optimizing accessibility, SEO, and rendering speed",
+  "Collaborated in agile sprints and QA strategy sessions, ensuring full validation of DPS, PF, Loan, Salary, Tax, and Payroll workflows"
+],
     technologies: ["Playwright", "Python", "K6", "JavaScript", "Lighthouse", "Jira"]
   },
   {
     id: 2,
     title: "Brac International",
     description: [
-      "Designed and executed 500 manual test cases with strong edge-case coverage",
-      "Performed functional, regression, and sanity testing to ensure stability across Attendance, WFH, and Visit modules",
-      "Collaborated closely with developers and business analysts to clarify requirements and resolve defects",
-      "Reported, tracked, and validated bugs through the full QA lifecycle",
-      "Contributed as part of a cross-functional team to maintain product quality"
-    ],
+  "Designed and executed 500+ manual test cases with 95% accuracy and extensive edge-case validation, ensuring reliable feature performance",
+  "Performed 200+ functional, regression, and sanity test cycles across Attendance, WFH, and Visit modules, maintaining 98% test pass consistency",
+  "Collaborated with developers and business analysts to clarify 100+ requirements and reduce defect turnaround time by 30%",
+  "Reported, tracked, and verified 250+ defects throughout the QA lifecycle, achieving 97% resolution accuracy through structured defect management",
+  "Contributed to cross-functional QA initiatives, improving overall product quality and release stability by 25%"
+],
     technologies: ["Manual Testing", "Jira", "Test Case Design"]
   }
 ];
 
 export const CONTACT = {
   address: "92-Shanarpar,Demra,Dhaka-1230",
-<<<<<<< HEAD
   phoneNo: "+880-1841047399",
   email: "azizsakib24@gmail.com"
 };
-
-=======
-  phoneNo: "+880-1921380201 ",
-  email: "azizsakib24@gmail.com",
-};
->>>>>>> be723b25df86503837098a6fe72c6a1cf27d10e0

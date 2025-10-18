@@ -52,7 +52,7 @@ const Approach = () => {
         viewport={{ once: true }}
         className="my-20 text-center text-4xl font-semibold bg-gradient-to-r from-cyan-400 via-blue-400 to-teal-400 bg-clip-text text-transparent tracking-wide"
       >
-        My Vision
+        Vision
       </motion.h1>
 
       <motion.div

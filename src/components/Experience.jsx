@@ -40,7 +40,7 @@ const Experience = () => {
         viewport={{ once: true }}
         className="my-20 text-center text-4xl font-semibold bg-gradient-to-r from-cyan-400 via-blue-400 to-teal-400 bg-clip-text text-transparent tracking-wide"
       >
-        Professional Journey
+        Work Experience
       </motion.h2>
 
       <motion.div
@@ -73,10 +73,10 @@ const Experience = () => {
             {/* Timeline center dot */}
             <div className="absolute left-8 lg:left-1/2 w-6 h-6 -ml-3 z-20">
               <motion.div
-                initial={{ scale: 0, rotate: 0 }}
-                whileInView={{ scale: 1, rotate: 360 }}
+                initial={{ scale: 0 }}
+                whileInView={{ scale: 1 }}
                 transition={{ duration: 0.6, delay: index * 0.2 + 0.2 }}
-                viewport={{ once: true }}
+                viewport={ { once: true }}
                 className="relative w-6 h-6"
               >
                 <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-500 to-blue-500 animate-ping opacity-75"></div>
@@ -121,12 +121,29 @@ const Experience = () => {
 
                   {/* Description points */}
                   <div className="mb-4 space-y-2">
-                    {exp.description.map((point, i) => (
+                    {Array.isArray(exp.description) ? (
+                      exp.description.map((point, i) => (
+                        <motion.div
+                          key={i}
+                          initial={{ opacity: 0, x: -20 }}
+                          whileInView={{ opacity: 1, x: 0 }}
+                          transition={{ duration: 0.4, delay: index * 0.2 + 0.5 + i * 0.1 }}
+                          viewport={{ once: true }}
+                          className="flex items-start gap-3 group/item"
+                        >
+                          <div className="mt-1.5">
+                            <div className="w-1 h-1 rounded-full bg-cyan-400 group-hover/item:scale-150 group-hover/item:shadow-lg group-hover/item:shadow-cyan-400/50 transition-all duration-300"></div>
+                          </div>
+                          <p className="text-neutral-400 text-sm leading-relaxed group-hover/item:text-neutral-300 transition-colors duration-300">
+                            {point}
+                          </p>
+                        </motion.div>
+                      ))
+                    ) : (
                       <motion.div
-                        key={i}
                         initial={{ opacity: 0, x: -20 }}
                         whileInView={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 0.4, delay: index * 0.2 + 0.5 + i * 0.1 }}
+                        transition={{ duration: 0.4, delay: index * 0.2 + 0.5 }}
                         viewport={{ once: true }}
                         className="flex items-start gap-3 group/item"
                       >
@@ -134,10 +151,10 @@ const Experience = () => {
                           <div className="w-1 h-1 rounded-full bg-cyan-400 group-hover/item:scale-150 group-hover/item:shadow-lg group-hover/item:shadow-cyan-400/50 transition-all duration-300"></div>
                         </div>
                         <p className="text-neutral-400 text-sm leading-relaxed group-hover/item:text-neutral-300 transition-colors duration-300">
-                          {point}
+                          {exp.description || 'No description available.'}
                         </p>
                       </motion.div>
-                    ))}
+                    )}
                   </div>
 
                   {/* Technologies */}

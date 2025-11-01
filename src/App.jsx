@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import Technologies from "./components/Teachnologies";
 import BlogSection from "./components/BlogSection";
 import Experience from "./components/Experience";
+import WalleComponent from "./components/WallEComponent";
 
 export default function App() {
   return (
@@ -23,17 +24,17 @@ export default function App() {
       </div>
 
       <div className="container mx-auto px-8">
-      <Navbar />
-            <Hero />
-            <BlogSection />
-            <About />
-            <Experience/>
-            <Technologies/>
-            <Education />
-    
-          <Projects/>
-            <Contact />
+        <Navbar />
+        <div id="hero"><Hero /></div>
+        <div id="vision"><BlogSection /></div>
+        <div id="about"><About /></div>
+        <div id="experience"><Experience /></div>
+        <div id="technologies"><Technologies /></div>
+        <div id="education"><Education /></div>
+        <div id="projects"><Projects /></div>
+        <div id="contact"><Contact /></div>
       </div>
+      <WalleComponent/>
     </div>
   );
 }
